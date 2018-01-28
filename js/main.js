@@ -56,7 +56,7 @@ function ajax(method, url) {
 
         document.body.appendChild(beginOfData);
 
-        for (var i in jasonObj) {
+        for (var i in jsonObj) {
             var userID = document.createElement('p');
             var userName = document.createElement('p');
             var userWebsite = document.createElement('p');
